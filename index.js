@@ -2,7 +2,7 @@ function postComment() {
   var commenter = document.getElementById('commenter').value;
   var comment = document.getElementById('comment').value;
 
-  var commentTemplate = '<div class="comment"><p><%= comment %></p><br/><p>Posted by: <span class="commenter"><%= commenter %></span></p></div>';
+  var commentTemplate = document.getElementById('commentTemplate');;
   var templateFn = _.template(commentTemplate);
 
   var commentsDiv = document.getElementById('comments');
