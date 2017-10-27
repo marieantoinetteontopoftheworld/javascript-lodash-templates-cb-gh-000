@@ -7,5 +7,5 @@ function postComment() {
 
   var commentsDiv = document.getElementById('comments');
   var templateHTML = templateFn({ 'comment': comment, 'commenter': commenter });
-  commentsDiv.innerHTML = templateHTML;
+  commentsDiv.innerHTML += templateHTML;
 }
