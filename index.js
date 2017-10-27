@@ -1,5 +1,5 @@
 function postComment() {
-  alert();
+  alert('s');
   var commenter;
   var comment;
 }
